@@ -1,0 +1,97 @@
+body{
+	margin: auto;
+	background-color: black;
+	color: white;
+}
+nav{
+	margin-top: auto;
+	border-bottom: 2px solid white;
+	position: static;
+}
+ul{
+	margin:0;
+	padding: 0;
+	list-style-type: none;
+	overflow: hidden;
+	background-color: black;
+}
+li {
+	float: left;
+	}
+li a{
+	display: block;
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	padding: 8px 14px;
+	
+}
+.log{
+	background-color: white;
+	color: black;
+}
+li a:hover{
+	background-color: white;
+	color: black;
+}
+div.form{
+	background-image: url('loginbackpic.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	opacity: 90%;
+	padding: 150px 450px;
+}
+form{
+	border:2px solid white;
+	padding: 30px;
+	border-radius: 25px;
+	background-color: black;
+}
+div.login{
+	text-align: center;
+	font-size: 25px;
+	padding: 15px;
+}
+hr.form{
+	width: 50%;
+}
+div.height{
+	line-height: 2em;
+}
+input{
+	padding: 5px;
+	border:hidden;
+	border-style: inset;
+}
+input:hover{
+	background-color: rgb(180,200,240);
+}
+
+button{
+	margin-top: 25px;
+	background-color: white;
+	padding: 0;
+	margin-left: 5px;
+}
+a.button{
+	border:2px outset grey;
+	padding: 3px 2px;
+	color: white;
+	text-decoration:none;
+	border-radius: 5px;
+}
+a.button:hover{
+	color: black;
+	background-color: white;
+	border-color: green;
+}
+footer{
+	background-image: url('index.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: static;
+	padding: 25px 0;
+	position: relative;
+	text-align: center;
+}
